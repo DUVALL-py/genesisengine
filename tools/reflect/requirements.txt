@@ -1,0 +1,7 @@
+# Dependência da ferramenta tools/reflect/genesis_reflect.py.
+# O pacote "libclang" do PyPI já traz o binário libclang.so + os bindings
+# clang.cindex — não é necessário instalar libclang-dev via apt.
+#
+# Instalação:
+#   pip install -r tools/reflect/requirements.txt
+libclang==18.1.1
